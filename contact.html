@@ -44,7 +44,7 @@
     </ul>
   </details>
 
-  <details open>
+  <details>
    <summary>Services</summary>
     <ul>
       <li><a href="services.html">Full-time courses</a></li>
@@ -59,7 +59,7 @@
    </ul>
  </details>
 
-  <details>
+  <details open>
     <summary>Contact</summary>
     <ul>
       <li><a href="contact.html">Phone</a></li>
@@ -85,29 +85,32 @@
    </details>
   </div>
 </aside>
-
-
     <main>
-      <h2>What service are you looking for?</h2>
-      <div class="card-grid">
-        <div class="card">Full-time courses</div>
-        <div class="card">Part-time courses</div>
-        <div class="card">Apprenticeships</div>
-        <div class="card">ERASMUS+ Mobility Projects</div>
-        <div class="card">Proper Guidance</div>
-        <div class="card">Community Service</div>
-        <div class="card">Chaplaincy</div>
-        <div class="card">Childcare Centre</div>
-        <div class="card">CLE</div>
-        <div class="card">Expression of Interest</div>
-        <div class="card">Grievance Office</div>
-        <div class="card">Hair and Beauty Salon</div>
-        <div class="card">IEU</div>
-        <div class="card">Sports and Fitness</div>
-        <div class="card">Student Liaison</div>
-        <div class="card">Wellbeing Hub</div>
-        <div class="card">Youth Hub</div>
-      </div>
+      <h2>Send us a Message!</h2>
+      <form action="mailto:https://vle.mcast.edu.mt/mod/assign/view.php?id=67680" method="POST" enctype="text/plain" class="contact-form">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <section class="info-section">
+        <h2>...Or contact us directly!</h2>
+        <div class="info-columns">
+          <div class="info-column">
+            <p>Via phone number: +356 2398 7100</p>
+          </div>
+          <div class="info-column">
+            <p>Via direct email: info@mcast.edu.mt</p>
+          </div>
+        </div>
+      </section>
     </main>
   </div>
 
