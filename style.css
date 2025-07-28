@@ -601,3 +601,93 @@ main h2 {
   margin-bottom: 0.2em;
   font-weight: 600;
 }
+
+.faq-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.faq-header {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: #241D69;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.faq-columns {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.faq-toc {
+  flex: 0 0 250px;
+  background-color: #e0e0e0;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.faq-toc h4 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #1f1660;
+}
+
+.faq-toc ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.faq-toc li {
+  margin: 10px 0;
+}
+
+.faq-toc a {
+  font-style: italic;
+  text-decoration: none;
+  color: #444;
+}
+
+.faq-toc a:hover {
+  color: #241D69;
+}
+
+.faq-content {
+  flex: 1;
+}
+
+.faq-content section {
+  margin-bottom: 40px;
+}
+
+.faq-content h3 {
+  font-size: 28px;
+  color: #1f1660;
+  margin-bottom: 10px;
+}
+
+.faq-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.faq-content li {
+  margin: 6px 0;
+}
+
+.faq-content a {
+  font-style: italic;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.2s;
+}
+
+.faq-content a:hover {
+  color: #241D69;
+  text-decoration: underline;
+}
+
